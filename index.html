@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Comics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Everyday Comics</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+            <p>Browse Comics</p>
+            </div>
+            <div class="col-md-8" id="title"></div>
+            <hr>
+            </div>
+        <div class = "row">
+            <div class="col-md-4">
+            <select id = "comics-list" class="list-group"></select>
+            </div>
+            <div class="col-md-8" id="body"><img id="comic" ><img id="seen" width="50" height="50"></div> <!--div is required for styling puposes. In this case to have proper column alignment-->
+        </div>
+        <div class = "row">
+        <div class="col-md-4"></div>
+            <div class="btn col-md-8" id="buttons">
+            <button type="button" class="btn btn-success" id="first">First</button>
+            <button type="button" class="btn btn-success" id="previous">&lt&ltPrevious</button>
+            <button type="button" class="btn btn-success" id="next">Next&gt&gt</button>
+            <button type="button" class="btn btn-success" id="last">Last</button>
+            <button type="button" class="btn btn-warning" id="random">Random</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<script src = "script.js"></script>
+    
+</body>
+</html>

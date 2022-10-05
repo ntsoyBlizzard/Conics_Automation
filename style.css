@@ -1,0 +1,37 @@
+h1 {
+    margin: 20px 50px 0px;
+}
+
+
+p {
+    margin-top: 20px;
+}
+
+#title {
+    margin-top: 20px;
+}
+
+#buttons, #body, #title {
+    text-align:center;
+    align-items: center;
+}
+
+
+img {
+    max-width: 500px;
+	max-height: 500px;
+}
+
+select {
+    width: 250px;
+}
+
+#comic {
+    position: relative;
+    border: none;
+}
+
+#seen {
+    position: absolute;
+    border: none;
+}

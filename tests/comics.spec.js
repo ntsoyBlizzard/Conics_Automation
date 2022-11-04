@@ -15,7 +15,7 @@ test.afterAll(async ()=> {
 })
 
 test('on the main page Comics', async ({ page }) => {
- await page.goto('http://127.0.0.1:5500/index.html');
+ await page.goto('index.html');
   await expect(page).toHaveTitle(/Everyday Comics/)
   console.log('Title verified ..✓');
 
